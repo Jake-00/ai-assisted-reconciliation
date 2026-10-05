@@ -1,0 +1,30 @@
+# 运行产物（可由 `python3 run_all.py` 重新生成）
+data/*.csv
+data/*.json
+data/raw/
+
+# Kaggle 原始数据（体积大，且受 CC BY-NC-SA 许可约束，不随仓库分发）
+data/raw/*.csv
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# 编辑器
+.vscode/
+.idea/
+.DS_Store
+
+# Jupyter 运行时（配置/历史/检查点）
+.jupyter/
+.ipynb_checkpoints/
+
+# 数据归档（本地保留，不入库 —— README 里有结果摘要）
+data/_olist_run/
+legacy_sync_data/*.csv
+legacy_sync_data/*.json
+
+# Jupyter 虚拟文档（临时产物）
+.virtual_documents/
